@@ -8,5 +8,4 @@ sudo echo -n 'Section "InputClass"
         Option "XkbSymbols" "pc+colemak-se+inet(evdev)"
         Option "XkbModel" "pc105"
 EndSection' > /usr/share/X11/xorg.conf.d/00-keyboard.conf
-sudo cp /usr/share/X11/xorg.conf.d/00-keyboard.conf /usr/share/X11/xkb/symbols
 sudo reboot
